@@ -1,4 +1,6 @@
+1.
 The raw file is amazon-meta.txt which contains all meta data.
+Data is downloaded from : http://snap.stanford.edu/data/amazon-meta.html
 We use this whole file for the first recommendation: user-based collaborative filtering
 It has user review rating matrix - 977.5MB
 
@@ -16,5 +18,7 @@ ASIN: 0827229534
     2000-7-28  cutomer: A2JW67OY8U6HHK  rating: 5  votes:  10  helpful:   9
     2003-12-14  cutomer: A2VE83MZF98ITY  rating: 5  votes:   6  helpful:   5
 
+2.
 edges0302.csv and nodes0302.csv has data connected from amazon on March 2nd.
 They are used for the second part item-based recommendation by system G.
+
